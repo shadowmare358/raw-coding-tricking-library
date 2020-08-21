@@ -7,6 +7,8 @@ jobs:
       name: Build our App
       runs-on: ubuntu-latest
       steps:
+        - name: Pull repo
+        - uses: actions/checkout@v2
         # - name: Hello world
         #   uses: actions/hello-world-javascript-action@v1
         #   with:
