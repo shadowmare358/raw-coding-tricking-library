@@ -4,7 +4,7 @@ on: push
 
 jobs:
     build:
-      - name: Build our App
+      name: Build our App
       runs-on: ubuntu-latest
       steps:
         - name: Pull repo
